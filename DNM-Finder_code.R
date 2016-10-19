@@ -18,10 +18,6 @@ library(gdata)
 
 mainDir='/mnt/bigData/cmg/DENOVO_VARIANT_ANALYSIS'
 
-# vcf directory
-
-vcfDir='/mnt/bigData/cmg/DENOVO_VARIANT_ANALYSIS/TRIO_VCF_DIR'
-
 # the directory where we keep all filtered vcf files
 
 xlsDir='/mnt/bigData/cmg/DENOVO_VARIANT_ANALYSIS/ALL_LL_XLS'
@@ -157,7 +153,6 @@ addPileups <- function(prBam, p1Bam, p2Bam,	data)
 
 
 
-count_key=0
 count=0
 
 
